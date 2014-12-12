@@ -1,0 +1,20 @@
+{
+    "context": {
+        "model_class_name": "User",
+        "base_class": "Document",
+        "model_fields": [{
+            "name": "mobile",
+            "class": "StringField(required=True, max_length=10)"
+        },
+        {
+            "name": "nickname",
+            "class": "StringField(required=True)"
+        },
+        {
+            "name": "pwd",
+            "class": "StringField(required=True)"
+        }
+        ]
+
+    }
+}
